@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCDD2"
+    tools:context="selenium.automation.com.selenium.ProfileActivity">
+
+    <TextView
+        android:id="@+id/tvShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap Below to Upload Profile Pic"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginVertical="10dp"
+            android:id="@+id/imageViewPhoto"
+            android:layout_width="380dp"
+            android:layout_height="250dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+        <ProgressBar
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewPhoto"
+            android:layout_alignEnd="@+id/imageViewPhoto"
+            android:layout_alignRight="@+id/imageViewPhoto"
+            android:layout_marginBottom="72dp"
+            android:layout_marginEnd="144dp"
+            android:layout_marginRight="144dp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_marginVertical="10dp"
+        android:id="@+id/etDisplayName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Name"/>
+
+    <Button
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginVertical="20dp"
+        android:id="@+id/btSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:id="@+id/btSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignOut"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</LinearLayout>

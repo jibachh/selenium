@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "898276717075",
+    "firebase_url": "https://selenium-b9a3b.firebaseio.com",
+    "project_id": "selenium-b9a3b",
+    "storage_bucket": "selenium-b9a3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898276717075:android:e1dbbceff710a3fd",
+        "android_client_info": {
+          "package_name": "selenium.automation.com.selenium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898276717075-m9enon1llqfdn1jo7cs29kdjlab8acta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBivVhQCKY6903UqbG_euenXpqXfMo_SVc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
